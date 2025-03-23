@@ -19,3 +19,7 @@
   mat-card-title {
     margin-bottom: 16px;
   }
+  .error {
+    color: red;
+    text-align: center;
+  }

@@ -2,6 +2,8 @@
     <mat-card class="login-card">
       <mat-card-title>Welcome Back!!!</mat-card-title>
 
+      <p class="error" *ngIf="loginError">{{loginError}}</p>
+
         <form class="example-form" [formGroup]="loginForm" (ngSubmit)="onLogin()">
 
             <mat-form-field class="full-width">

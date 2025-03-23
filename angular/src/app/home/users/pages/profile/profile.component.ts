@@ -9,9 +9,9 @@ import { UserService } from '../../services/user.service';
   styleUrl: './profile.component.css'
 })
 export class ProfileComponent {
-  user: UserModel | null;
+  // user: UserModel | null;
 
-  constructor(private userService: UserService) {
-    this.user = this.userService.getLoggedInUser();
-  }
+  // constructor(private userService: UserService) {
+  //   this.user = this.userService.getLoggedInUser();
+  // }
 }
